@@ -1,0 +1,39 @@
+---
+abstract: 'A Task module for DWIM Perl L<http://dwimperl.com/>'
+author:
+  - 'Gabor Szabo <szabgab@cpan.org>'
+build_requires:
+  ExtUtils::MakeMaker: 6.59
+  Perl::Version: 1.011
+  Test::More: 0.42
+configure_requires:
+  ExtUtils::MakeMaker: 6.59
+distribution_type: module
+dynamic_config: 1
+generated_by: 'Module::Install version 1.06'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Task-DWIM-Serialization
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  Data::Serializer: 0.59
+  FreezeThaw: 0.5001
+  JSON: 2.53
+  JSON::PP: 2.27200
+  JSON::Syck: 1.20
+  JSON::XS: 2.32
+  Storable: 2.30
+  YAML: 0.80
+  YAML::Syck: 1.22
+  YAML::Tiny: 1.50
+  YAML::XS: 0.38
+  perl: 5.008
+resources:
+  license: http://dev.perl.org/licenses/
+  repository: https://github.com/dwimperl/Task-DWIM
+version: 0.07
